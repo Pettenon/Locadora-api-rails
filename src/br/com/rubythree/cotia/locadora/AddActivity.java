@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class AddActivity extends Activity {
 	
@@ -48,6 +49,8 @@ public class AddActivity extends Activity {
 		
 			public void onClick (View v){
 				
+				Toast.makeText(AddActivity.this, "Saved", Toast.LENGTH_SHORT).show();
+				
 				try {
 					final EditText nameEditText = (EditText) findViewById (R.id.name_edit_text);
 					final EditText genreEditText = (EditText) findViewById (R.id.genre_edit_text);
@@ -60,6 +63,8 @@ public class AddActivity extends Activity {
 							data("movie[name]", name), data("movie[genre]", genre)
 						)
 					);
+					
+					
 					
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
