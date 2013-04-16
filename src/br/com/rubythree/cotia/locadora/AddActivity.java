@@ -7,7 +7,6 @@ import static us.monoid.web.Resty.*;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.view.View;
@@ -17,13 +16,14 @@ import android.widget.EditText;
 
 public class AddActivity extends Activity {
 	
-	Resty resty = new Resty();
+	final Resty r = new Resty();
 	
 	@Override
 	protected void onCreate (Bundle savedInstanceState) {
 		super.onCreate (savedInstanceState);
 		setContentView (R.layout.second);
 		
+		//Get na JSON e trazer os dados
 		setThreadPolicy();
 		
 		try {
@@ -36,8 +36,7 @@ public class AddActivity extends Activity {
 
 	@SuppressLint("NewApi")
 	public void setThreadPolicy() {
-	    StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder()
-	                    .permitAll().build();
+	    StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
 	    StrictMode.setThreadPolicy(policy);
 	}
 	
@@ -56,7 +55,7 @@ public class AddActivity extends Activity {
 					String name = nameEditText.getEditableText().toString();
 					String genre = genreEditText.getEditableText().toString();
 	
-					resty.json("http://192.168.1.6:3000/movies",
+					r.json("http://192.168.1.6:3000/movies",
 						form(
 							data("movie[name]", name), data("movie[genre]", genre)
 						)

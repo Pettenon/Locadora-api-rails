@@ -1789,3 +1789,838 @@ Served asset /jquery.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-16 15:26:11 -0300
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-04-16 15:36:58 -0300
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.4ms)[0m  SELECT `movies`.* FROM `movies` 
+  Rendered movies/index.html.haml within layouts/application (8.8ms)
+Completed 200 OK in 21ms (Views: 17.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2013-04-16 15:36:58 -0300
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2013-04-16 15:36:58 -0300
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-16 15:36:58 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-16 15:36:58 -0300
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-16 15:36:58 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-16 15:36:58 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2013-04-16 15:36:58 -0300
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-16 15:36:58 -0300
+Served asset /application.js - 304 Not Modified (19ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-04-16 15:42:04 -0300
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT `movies`.* FROM `movies` [0m
+  Rendered movies/index.html.haml within layouts/application (4.8ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2013-04-16 15:42:04 -0300
+Served asset /formtastic.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-16 15:42:04 -0300
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2013-04-16 15:42:04 -0300
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-16 15:42:04 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-16 15:42:04 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-16 15:42:04 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2013-04-16 15:42:04 -0300
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-16 15:42:04 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/movies" for 192.168.1.3 at 2013-04-16 15:57:00 -0300
+Processing by MoviesController#create as JSON
+  Parameters: {"movies"=>{"name"=>"The Hobbit ", "genre"=>"Adventure"}}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (22.7ms)[0m  [1mINSERT INTO `movies` (`created_at`, `genre`, `name`, `updated_at`) VALUES ('2013-04-16 18:57:00', NULL, NULL, '2013-04-16 18:57:00')[0m
+  [1m[35m (75.2ms)[0m  COMMIT
+Completed 201 Created in 159ms (Views: 1.8ms | ActiveRecord: 98.1ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-04-16 15:57:11 -0300
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT `movies`.* FROM `movies` [0m
+  Rendered movies/index.html.haml within layouts/application (5.3ms)
+Completed 200 OK in 29ms (Views: 27.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at 2013-04-16 15:57:11 -0300
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2013-04-16 15:57:11 -0300
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-16 15:57:11 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-16 15:57:11 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-16 15:57:11 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-16 15:57:11 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2013-04-16 15:57:11 -0300
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-16 15:57:11 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/movies.json" for 127.0.0.1 at 2013-04-16 15:59:00 -0300
+Processing by MoviesController#index as JSON
+  [1m[35mMovie Load (0.4ms)[0m  SELECT `movies`.* FROM `movies` 
+  Rendered movies/index.json.rabl (7.7ms)
+Completed 200 OK in 17ms (Views: 13.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies" for 192.168.1.6 at 2013-04-16 16:01:04 -0300
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT `movies`.* FROM `movies` [0m
+  Rendered movies/index.html.haml within layouts/application (5.6ms)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 192.168.1.6 at 2013-04-16 16:01:04 -0300
+Served asset /formtastic.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.6 at 2013-04-16 16:01:04 -0300
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 192.168.1.6 at 2013-04-16 16:01:04 -0300
+Served asset /movies.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.1.6 at 2013-04-16 16:01:04 -0300
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.6 at 2013-04-16 16:01:04 -0300
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.6 at 2013-04-16 16:01:04 -0300
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 192.168.1.6 at 2013-04-16 16:01:04 -0300
+Served asset /movies.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.6 at 2013-04-16 16:01:04 -0300
+Served asset /application.js - 200 OK (0ms)
+
+
+Started POST "/movies" for 192.168.1.3 at 2013-04-16 16:01:35 -0300
+Processing by MoviesController#create as JSON
+  Parameters: {"name"=>"The Hobbit ", "genre"=>"Adventure "}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `movies` (`created_at`, `genre`, `name`, `updated_at`) VALUES ('2013-04-16 19:01:35', NULL, NULL, '2013-04-16 19:01:35')[0m
+  [1m[35m (54.2ms)[0m  COMMIT
+Completed 201 Created in 59ms (Views: 2.0ms | ActiveRecord: 54.5ms)
+
+
+Started GET "/movies" for 192.168.1.6 at 2013-04-16 16:01:38 -0300
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.7ms)[0m  [1mSELECT `movies`.* FROM `movies` [0m
+  Rendered movies/index.html.haml within layouts/application (17.4ms)
+Completed 200 OK in 29ms (Views: 25.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 192.168.1.6 at 2013-04-16 16:01:38 -0300
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 192.168.1.6 at 2013-04-16 16:01:38 -0300
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.6 at 2013-04-16 16:01:38 -0300
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.1.6 at 2013-04-16 16:01:38 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.6 at 2013-04-16 16:01:38 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.6 at 2013-04-16 16:01:38 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 192.168.1.6 at 2013-04-16 16:01:38 -0300
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.6 at 2013-04-16 16:01:38 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started DELETE "/movies/7" for 192.168.1.6 at 2013-04-16 16:01:41 -0300
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"AfaF7qMZxMj3cw/kQD6BDSgYhx/4ckj60tVDfzJbWvg=", "id"=>"7"}
+  [1m[35mMovie Load (0.7ms)[0m  SELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 7 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  DELETE FROM `movies` WHERE `movies`.`id` = 7
+  [1m[36m (48.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://192.168.1.6:3000/movies
+Completed 302 Found in 57ms (ActiveRecord: 49.9ms)
+
+
+Started GET "/movies" for 192.168.1.6 at 2013-04-16 16:01:41 -0300
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT `movies`.* FROM `movies` 
+  Rendered movies/index.html.haml within layouts/application (6.4ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 192.168.1.6 at 2013-04-16 16:01:42 -0300
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.6 at 2013-04-16 16:01:42 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 192.168.1.6 at 2013-04-16 16:01:42 -0300
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.1.6 at 2013-04-16 16:01:42 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.6 at 2013-04-16 16:01:42 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.6 at 2013-04-16 16:01:42 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 192.168.1.6 at 2013-04-16 16:01:42 -0300
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.6 at 2013-04-16 16:01:42 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started DELETE "/movies/8" for 192.168.1.6 at 2013-04-16 16:01:44 -0300
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"AfaF7qMZxMj3cw/kQD6BDSgYhx/4ckj60tVDfzJbWvg=", "id"=>"8"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 8 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM `movies` WHERE `movies`.`id` = 8[0m
+  [1m[35m (48.5ms)[0m  COMMIT
+Redirected to http://192.168.1.6:3000/movies
+Completed 302 Found in 52ms (ActiveRecord: 49.1ms)
+
+
+Started GET "/movies" for 192.168.1.6 at 2013-04-16 16:01:44 -0300
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT `movies`.* FROM `movies` [0m
+  Rendered movies/index.html.haml within layouts/application (4.8ms)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 192.168.1.6 at 2013-04-16 16:01:44 -0300
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.6 at 2013-04-16 16:01:44 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 192.168.1.6 at 2013-04-16 16:01:44 -0300
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.1.6 at 2013-04-16 16:01:44 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.6 at 2013-04-16 16:01:44 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.6 at 2013-04-16 16:01:44 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 192.168.1.6 at 2013-04-16 16:01:44 -0300
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.6 at 2013-04-16 16:01:44 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/movies.json" for 192.168.1.6 at 2013-04-16 16:01:52 -0300
+Processing by MoviesController#index as JSON
+  [1m[35mMovie Load (0.3ms)[0m  SELECT `movies`.* FROM `movies` 
+  Rendered movies/index.json.rabl (4.5ms)
+Completed 200 OK in 11ms (Views: 7.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies.json" for 192.168.1.6 at 2013-04-16 16:02:23 -0300
+Processing by MoviesController#index as JSON
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT `movies`.* FROM `movies` [0m
+  Rendered movies/index.json.rabl (4.9ms)
+Completed 200 OK in 16ms (Views: 7.0ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/movies.json" for 192.168.1.6 at 2013-04-16 16:02:29 -0300
+Processing by MoviesController#index as JSON
+  [1m[35mMovie Load (0.4ms)[0m  SELECT `movies`.* FROM `movies` 
+  Rendered movies/index.json.rabl (5.5ms)
+Completed 200 OK in 16ms (Views: 7.5ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/movies.json" for 192.168.1.6 at 2013-04-16 16:02:30 -0300
+Processing by MoviesController#index as JSON
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT `movies`.* FROM `movies` [0m
+  Rendered movies/index.json.rabl (5.1ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies.json" for 192.168.1.6 at 2013-04-16 16:02:30 -0300
+Processing by MoviesController#index as JSON
+  [1m[35mMovie Load (0.1ms)[0m  SELECT `movies`.* FROM `movies` 
+  Rendered movies/index.json.rabl (5.3ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/movies.json" for 192.168.1.6 at 2013-04-16 16:02:31 -0300
+Processing by MoviesController#index as JSON
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT `movies`.* FROM `movies` [0m
+  Rendered movies/index.json.rabl (24.7ms)
+Completed 200 OK in 27ms (Views: 26.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/movies.json" for 192.168.1.6 at 2013-04-16 16:02:31 -0300
+Processing by MoviesController#index as JSON
+  [1m[35mMovie Load (0.1ms)[0m  SELECT `movies`.* FROM `movies` 
+  Rendered movies/index.json.rabl (5.6ms)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/movies.json" for 192.168.1.6 at 2013-04-16 16:02:31 -0300
+Processing by MoviesController#index as JSON
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT `movies`.* FROM `movies` [0m
+  Rendered movies/index.json.rabl (5.5ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/movies.json" for 192.168.1.6 at 2013-04-16 16:04:00 -0300
+Processing by MoviesController#index as JSON
+  [1m[35mMovie Load (0.2ms)[0m  SELECT `movies`.* FROM `movies` 
+  Rendered movies/index.json.rabl (4.9ms)
+Completed 200 OK in 14ms (Views: 6.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/movies.json" for 192.168.1.6 at 2013-04-16 16:04:00 -0300
+Processing by MoviesController#index as JSON
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT `movies`.* FROM `movies` [0m
+  Rendered movies/index.json.rabl (4.5ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/movies" for 192.168.1.6 at 2013-04-16 16:04:14 -0300
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.4ms)[0m  SELECT `movies`.* FROM `movies` 
+  Rendered movies/index.html.haml within layouts/application (5.0ms)
+Completed 200 OK in 14ms (Views: 11.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:14 -0300
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:14 -0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/movies.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:14 -0300
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:14 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:14 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:14 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:14 -0300
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:14 -0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 192.168.1.6 at 2013-04-16 16:04:21 -0300
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT `movies`.* FROM `movies` [0m
+  Rendered movies/index.html.haml within layouts/application (5.2ms)
+Completed 200 OK in 17ms (Views: 13.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:21 -0300
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:21 -0300
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:21 -0300
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:21 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:21 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:21 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:21 -0300
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:21 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/movies" for 192.168.1.6 at 2013-04-16 16:04:22 -0300
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT `movies`.* FROM `movies` 
+  Rendered movies/index.html.haml within layouts/application (8.9ms)
+Completed 200 OK in 21ms (Views: 17.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:22 -0300
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:22 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:22 -0300
+Served asset /movies.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:22 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:22 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:22 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:22 -0300
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:22 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/movies" for 192.168.1.6 at 2013-04-16 16:04:22 -0300
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT `movies`.* FROM `movies` [0m
+  Rendered movies/index.html.haml within layouts/application (5.5ms)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:22 -0300
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:22 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:22 -0300
+Served asset /movies.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:22 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:22 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:22 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:22 -0300
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:22 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/movies" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.4ms)[0m  SELECT `movies`.* FROM `movies` 
+  Rendered movies/index.html.haml within layouts/application (12.7ms)
+Completed 200 OK in 24ms (Views: 21.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Served asset /movies.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Served asset /movies.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/movies" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT `movies`.* FROM `movies` [0m
+  Rendered movies/index.html.haml within layouts/application (4.8ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Served asset /formtastic.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Served asset /movies.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/movies" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT `movies`.* FROM `movies` 
+  Rendered movies/index.html.haml within layouts/application (23.6ms)
+Completed 200 OK in 30ms (Views: 28.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Served asset /formtastic.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Served asset /movies.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Served asset /movies.js - 200 OK (0ms)
+
+
+Started GET "/movies" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT `movies`.* FROM `movies` [0m
+  Rendered movies/index.html.haml within layouts/application (6.1ms)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Served asset /movies.css - 200 OK (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/movies" for 192.168.1.6 at 2013-04-16 16:04:23 -0300
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT `movies`.* FROM `movies` 
+  Rendered movies/index.html.haml within layouts/application (4.8ms)
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:24 -0300
+Served asset /formtastic.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:24 -0300
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:24 -0300
+Served asset /movies.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:24 -0300
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:24 -0300
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:24 -0300
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/movies" for 192.168.1.6 at 2013-04-16 16:04:24 -0300
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT `movies`.* FROM `movies` [0m
+  Rendered movies/index.html.haml within layouts/application (6.4ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:24 -0300
+Served asset /formtastic.css - 200 OK (0ms)
+
+
+Started GET "/assets/movies.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:24 -0300
+Served asset /movies.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:24 -0300
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:24 -0300
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:24 -0300
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:24 -0300
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started POST "/movies" for 192.168.1.3 at 2013-04-16 16:04:27 -0300
+Processing by MoviesController#create as JSON
+  Parameters: {"name"=>"The Hobbit ", "genre"=>"Adventure "}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `movies` (`created_at`, `genre`, `name`, `updated_at`) VALUES ('2013-04-16 19:04:27', NULL, NULL, '2013-04-16 19:04:27')[0m
+  [1m[35m (51.8ms)[0m  COMMIT
+Completed 406 Not Acceptable in 59ms (ActiveRecord: 52.5ms)
+
+
+Started GET "/movies" for 192.168.1.6 at 2013-04-16 16:04:29 -0300
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT `movies`.* FROM `movies` [0m
+  Rendered movies/index.html.haml within layouts/application (6.3ms)
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies" for 192.168.1.6 at 2013-04-16 16:04:31 -0300
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT `movies`.* FROM `movies` 
+  Rendered movies/index.html.haml within layouts/application (5.4ms)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:31 -0300
+Served asset /formtastic.css - 200 OK (1ms)
+
+
+Started GET "/assets/movies.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:31 -0300
+Served asset /movies.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:31 -0300
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:31 -0300
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 192.168.1.6 at 2013-04-16 16:04:31 -0300
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:31 -0300
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/movies.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:31 -0300
+Served asset /movies.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:31 -0300
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/movies" for 192.168.1.6 at 2013-04-16 16:04:31 -0300
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT `movies`.* FROM `movies` [0m
+  Rendered movies/index.html.haml within layouts/application (6.7ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/movies.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:32 -0300
+Served asset /movies.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.1.6 at 2013-04-16 16:04:32 -0300
+Served asset /application.js - 200 OK (1ms)
+
+
+Started DELETE "/movies/9" for 192.168.1.6 at 2013-04-16 16:04:35 -0300
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"AfaF7qMZxMj3cw/kQD6BDSgYhx/4ckj60tVDfzJbWvg=", "id"=>"9"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT `movies`.* FROM `movies` WHERE `movies`.`id` = 9 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM `movies` WHERE `movies`.`id` = 9
+  [1m[36m (48.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://192.168.1.6:3000/movies
+Completed 302 Found in 52ms (ActiveRecord: 49.0ms)
+
+
+Started GET "/movies" for 192.168.1.6 at 2013-04-16 16:04:35 -0300
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.7ms)[0m  SELECT `movies`.* FROM `movies` 
+  Rendered movies/index.html.haml within layouts/application (13.9ms)
+Completed 200 OK in 28ms (Views: 24.9ms | ActiveRecord: 0.7ms)

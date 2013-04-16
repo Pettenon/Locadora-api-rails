@@ -36,10 +36,8 @@ class MoviesController < ApplicationController
     respond_to do |format|
       if @movie.save
         format.html { redirect_to @movie, notice: 'Movie was successfully created.' }
-        format.json { render json: @movie, status: :created, location: @movie }
       else
         format.html { render action: "new" }
-        format.json { render json: @movie.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -52,10 +50,8 @@ class MoviesController < ApplicationController
     respond_to do |format|
       if @movie.update_attributes(params[:movie])
         format.html { redirect_to @movie, notice: 'Movie was successfully updated.' }
-        format.json { head :no_content }
       else
         format.html { render action: "edit" }
-        format.json { render json: @movie.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -68,7 +64,6 @@ class MoviesController < ApplicationController
 
     respond_to do |format|
       format.html { redirect_to movies_url }
-      format.json { head :no_content }
     end
   end
 end
